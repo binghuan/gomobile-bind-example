@@ -1,0 +1,1 @@
+# gomobile-bind-example
