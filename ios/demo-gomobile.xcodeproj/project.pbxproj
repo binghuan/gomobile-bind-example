@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072451AF29F47C2D00814B21 /* Hello.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072451AE29F47C2D00814B21 /* Hello.xcframework */; };
 		82CFAE182679B420001B0B6C /* demo_gomobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFAE172679B420001B0B6C /* demo_gomobileApp.swift */; };
 		82CFAE1A2679B420001B0B6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFAE192679B420001B0B6C /* ContentView.swift */; };
 		82CFAE1C2679B424001B0B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CFAE1B2679B424001B0B6C /* Assets.xcassets */; };
 		82CFAE1F2679B424001B0B6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CFAE1E2679B424001B0B6C /* Preview Assets.xcassets */; };
-		82CFAE272679B46D001B0B6C /* Hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CFAE262679B46D001B0B6C /* Hello.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		072451AE29F47C2D00814B21 /* Hello.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Hello.xcframework; path = ../hello/Hello.xcframework; sourceTree = "<group>"; };
 		82CFAE142679B41F001B0B6C /* demo-gomobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-gomobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CFAE172679B420001B0B6C /* demo_gomobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_gomobileApp.swift; sourceTree = "<group>"; };
 		82CFAE192679B420001B0B6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82CFAE1B2679B424001B0B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CFAE1E2679B424001B0B6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82CFAE202679B424001B0B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82CFAE262679B46D001B0B6C /* Hello.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Hello.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CFAE272679B46D001B0B6C /* Hello.framework in Frameworks */,
+				072451AF29F47C2D00814B21 /* Hello.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +39,7 @@
 		82CFAE0B2679B41F001B0B6C = {
 			isa = PBXGroup;
 			children = (
-				82CFAE262679B46D001B0B6C /* Hello.framework */,
+				072451AE29F47C2D00814B21 /* Hello.xcframework */,
 				82CFAE162679B41F001B0B6C /* demo-gomobile */,
 				82CFAE152679B41F001B0B6C /* Products */,
 			);

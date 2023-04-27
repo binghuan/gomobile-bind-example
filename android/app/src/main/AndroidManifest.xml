@@ -10,7 +10,8 @@
         android:label="GoBindExample">
         <activity
             android:name=".MainActivity"
-            android:label="GoBindExample" >
+            android:label="GoBindExample"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
