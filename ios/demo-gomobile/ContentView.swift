@@ -11,14 +11,16 @@ import Hello
 struct ContentView: View {
     
     func callMyFunction() {
-        HelloGreetings("BH_Lin");
-        HelloGetVersion()
+        print(HelloGreetings("BH_Lin"))
+        print(HelloGetVersion())
     }
     
     var body: some View {
         VStack() {
             Text("Version: \(HelloGetVersion())")
-            Button(action: {}) {
+            Button(action: {
+                callMyFunction()
+            }) {
                 Text("PRESS ME TO CALL FUNC")
             }
         }

@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		072451AF29F47C2D00814B21 /* Hello.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072451AE29F47C2D00814B21 /* Hello.xcframework */; };
+		070DCE8D29FBB7E400400CA9 /* Hello.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070DCE8C29FBB7E400400CA9 /* Hello.xcframework */; };
 		82CFAE182679B420001B0B6C /* demo_gomobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFAE172679B420001B0B6C /* demo_gomobileApp.swift */; };
 		82CFAE1A2679B420001B0B6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFAE192679B420001B0B6C /* ContentView.swift */; };
 		82CFAE1C2679B424001B0B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CFAE1B2679B424001B0B6C /* Assets.xcassets */; };
 		82CFAE1F2679B424001B0B6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CFAE1E2679B424001B0B6C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		070DCE8B29FBB77B00400CA9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		072451AE29F47C2D00814B21 /* Hello.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Hello.xcframework; path = ../hello/Hello.xcframework; sourceTree = "<group>"; };
+		070DCE8C29FBB7E400400CA9 /* Hello.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Hello.xcframework; path = ../hello/Hello.xcframework; sourceTree = "<group>"; };
 		82CFAE142679B41F001B0B6C /* demo-gomobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-gomobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CFAE172679B420001B0B6C /* demo_gomobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_gomobileApp.swift; sourceTree = "<group>"; };
 		82CFAE192679B420001B0B6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,19 +42,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072451AF29F47C2D00814B21 /* Hello.xcframework in Frameworks */,
+				070DCE8D29FBB7E400400CA9 /* Hello.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070DCE8829FBB77B00400CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		82CFAE0B2679B41F001B0B6C = {
 			isa = PBXGroup;
 			children = (
-				072451AE29F47C2D00814B21 /* Hello.xcframework */,
+				070DCE8C29FBB7E400400CA9 /* Hello.xcframework */,
 				82CFAE162679B41F001B0B6C /* demo-gomobile */,
 				82CFAE152679B41F001B0B6C /* Products */,
+				070DCE8829FBB77B00400CA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +104,7 @@
 				82CFAE102679B41F001B0B6C /* Sources */,
 				82CFAE112679B41F001B0B6C /* Frameworks */,
 				82CFAE122679B41F001B0B6C /* Resources */,
+				070DCE8B29FBB77B00400CA9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,8 +121,9 @@
 		82CFAE0C2679B41F001B0B6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					82CFAE132679B41F001B0B6C = {
 						CreatedOnToolsVersion = 12.5;
